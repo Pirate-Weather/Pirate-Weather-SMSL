@@ -1,0 +1,14 @@
+name: pirate_test
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python>=3.10
+- numpy
+- matplotlib
+- jupyter
+- netcdf4
+- boto3
+- libuuid
+- pytest-shutil
+- libgfortran
